@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Oct 28 11:24:26 2026
+# Process ID         : 56020
+# Current directory  : C:/Agents/Day9
+# Command line       : vivado.exe -mode batch -source C:\Agents\Day9\scripts\refresh_fileset.tcl -log C:\Agents\Day9\logs\refresh_fileset.log -tclargs C:\Agents\Day9 axi_lite_memory
+# Log file           : C:/Agents/Day9/logs/refresh_fileset.log
+# Journal file       : C:/Agents/Day9\vivado.jou
+# Running On         : Kumar_PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13650HX
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 25480 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 27090 MB
+# Available Virtual  : 14788 MB
+#-----------------------------------------------------------
+source {C:\Agents\Day9\scripts\refresh_fileset.tcl}
+# set project_dir  [lindex $argv 0]
+# set project_name [lindex $argv 1]
+# set project_file "$project_dir/build/$project_name.xpr"
+# set rtl_dir      "$project_dir/rtl"
+# set tb_dir       "$project_dir/tb"
+# set xdc_dir      "$project_dir/xdc"
+# set opened_projects [get_projects -quiet]
+# if {[llength $opened_projects] == 0} {
+# 
+#     if {![file isfile $project_file]} {
+#         error "Project not found: $project_file"
+#     }
+# 
+#     open_project $project_file
+# }
+Project not found: C:\Agents\Day9/build/axi_lite_memory.xpr
+    while executing
+"error "Project not found: $project_file""
+    invoked from within
+"if {![file isfile $project_file]} {
+        error "Project not found: $project_file"
+    }"
+    invoked from within
+"if {[llength $opened_projects] == 0} {
+
+    if {![file isfile $project_file]} {
+        error "Project not found: $project_file"
+    }
+
+    open_proje..."
+    (file "C:\Agents\Day9\scripts\refresh_fileset.tcl" line 21)
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 11:24:28 2026...
