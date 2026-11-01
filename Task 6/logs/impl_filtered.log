@@ -1,0 +1,2 @@
+WARNING: [Place 30-2953] Timing driven mode will be turned off because no critical terminals were found.
+WARNING: [Place 46-29] Timing had been disabled during Placer and, therefore, physical synthesis in Placer will be skipped.
