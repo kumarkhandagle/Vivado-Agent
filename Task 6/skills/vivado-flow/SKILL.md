@@ -1,9 +1,4 @@
 
----
-name: vivado-flow
-description: Execute goal-driven FPGA workflows in an existing AMD Vivado project using MCP tools, including device checks, constraints, synthesis, implementation, timing, resource analysis, diagnostics, and bitstream generation. Use when asked to synthesize, implement, debug a flow, analyze timing or utilization, or generate a bitstream.
----
-
 # Vivado FPGA workflow
 
 ## Goal
